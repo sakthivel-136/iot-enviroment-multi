@@ -1,0 +1,10 @@
+node_modules/
+venv/
+__pycache__/
+.DS_Store
+.next/
+dist/
+build/
+*.pkl
+# Normally we ignore .env, but user requested to include it
+# .env 
