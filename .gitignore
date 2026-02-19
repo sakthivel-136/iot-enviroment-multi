@@ -6,5 +6,5 @@ __pycache__/
 dist/
 build/
 *.pkl
-# Normally we ignore .env, but user requested to include it
-# .env 
+.env
+.env.local
