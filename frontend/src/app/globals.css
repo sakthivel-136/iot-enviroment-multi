@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+:root {
+  --background: #0f172a;
+  /* Slate 900 */
+  --foreground: #f8fafc;
+  /* Slate 50 */
+}
+
+body {
+  color: var(--foreground);
+  background: #020617;
+  /* Slate 950 base */
+  background-image:
+    radial-gradient(at 0% 0%, rgba(30, 58, 138, 0.6) 0, transparent 50%),
+    /* Royal Blue top-left */
+    radial-gradient(at 100% 0%, rgba(59, 130, 246, 0.3) 0, transparent 50%),
+    /* Blue-500 top-right */
+    radial-gradient(at 50% 100%, rgba(15, 23, 42, 1) 0, transparent 50%);
+  /* Dark bottom */
+  min-height: 100vh;
+}
+
+/* Custom Utilities */
+.text-glow {
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
